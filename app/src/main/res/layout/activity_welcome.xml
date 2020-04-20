@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Welcome">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/Activity_welcom_fremlayot"
+        android:layout_weight="10">
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.4">
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/f_boarding1_button"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_butten"
+            android:layout_weight="0.4"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="0dp"
+
+            android:background="@drawable/circle_butten_gray"
+            android:id="@+id/f_boarding2_button"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="0dp"
+            android:background="@drawable/circle_butten_gray"
+            android:id="@+id/f_boarding3_button"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_weight="0.6"
+        android:layout_height="0dp"/>
+
+</LinearLayout>
