@@ -54,15 +54,42 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener, 
         switch(v.getId()) {
             case R.id.f_boarding1_button:
                 moveToFragment(onBoarding1);
-                break;
+               changeBeckgroundButten(moveToOnboarding1 );
+               break;
             case R.id.f_boarding2_button:
                 moveToFragment(onBoarding2);
+                changeBeckgroundButten(moveToOnboarding2 );
                 break;
             case R.id.f_boarding3_button:
                 moveToFragment(onBoarding3);
+                changeBeckgroundButten(moveToOnboarding3 );
                 break;
 
         }
 
+    }
+
+    private void changeBeckgroundButten(Button mybutton) {
+        switch(mybutton.getId()) {
+            case R.id.f_boarding1_button:
+                moveToFragment(onBoarding1);
+                mybutton.setBackgroundResource(R.drawable.circle_butten);
+                moveToOnboarding2.setBackgroundResource(R.drawable.circle_butten_gray);
+                moveToOnboarding3.setBackgroundResource(R.drawable.circle_butten_gray);
+                break;
+            case R.id.f_boarding2_button:
+                moveToFragment(onBoarding2);
+                mybutton.setBackgroundResource(R.drawable.circle_butten);
+                moveToOnboarding1.setBackgroundResource(R.drawable.circle_butten_gray);
+                moveToOnboarding3.setBackgroundResource(R.drawable.circle_butten_gray);
+                break;
+            case R.id.f_boarding3_button:
+                moveToFragment(onBoarding3);
+
+                mybutton.setBackgroundResource(R.drawable.circle_butten);
+                moveToOnboarding1.setBackgroundResource(R.drawable.circle_butten_gray);
+                moveToOnboarding2.setBackgroundResource(R.drawable.circle_butten_gray);break;
+
+        }
     }
 }

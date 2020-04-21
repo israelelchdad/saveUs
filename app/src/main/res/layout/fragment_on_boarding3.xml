@@ -1,14 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Fragments.OnBoarding3">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:context=".Fragments.OnBoarding1">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="fragment3" />
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="607">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_weight="243">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="62"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="237"
+                android:src="@drawable/group"
+                android:layout_height="match_parent"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"/>
 
-</FrameLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="46"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="63"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="281"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#00b2ab"
+                    android:textSize="40sp"
+                    android:layout_height="match_parent"
+                    android:text="התראות ועדכונים" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="38">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"/>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="293"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#454e6c"
+                        android:id="@+id/fbord3_text_masege"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_height="wrap_content"
+                        android:text="התראה בזמן אמת " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#454e6c"
+                        android:textSize="16sp"
+                        android:layout_toStartOf="@+id/fbord3_text_masege"
+                        android:layout_height="wrap_content"
+                        android:text="תתקבל במצב בו דיווחתם על " />
+                </RelativeLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#454e6c"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:text="מיקומכם הנוכחי ויש עליו מידע מעודכן כאזור נגוע"
+                    />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="19"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_weight="23">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"/>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="293"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#454e6c"
+                    android:id="@+id/fbord1_text_Updated"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    android:text="התראה מתעדכנת " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#454e6c"
+                    android:textSize="16sp"
+                    android:layout_toStartOf="@+id/fbord1_text_Updated"
+                    android:layout_height="wrap_content"
+                    android:text="תתקבל כאשר אחד מהמקומות " />
+            </RelativeLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_weight="23">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#454e6c"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="שדיווחתם עליהם בזמן אמת או בדיעבד"
+                />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_weight="23">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#454e6c"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="ידווח כאזור נגוע"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="26"/>
+    </LinearLayout>
+</LinearLayout>
