@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SaveUs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="f_b1_security_text1">Privacy Security</string>
+    <string name="f_b1_m_text2">Prevention of corona proliferation</string>
+    <string name="f_b1_she_text3">The goal of us all</string>
+    <string name="f_b1_now_text4">You can now actively help</string>
+    <string name="f_b1_dont_text5">And without fear of violating your privacy</string>
+    <string name="f_b2_simple_text1">Simple and fast</string>
+    <string name="f_b3_Notifications_text1">Alerts and updates</string>
+    <string name="f_b3_time_text2">Real-time alert </string>
+    <string name="f_b3_come_text3">accepted in the situation you reported on</string>
+    <string name="f_b3_place_text4">Your current location and has updated information as an infected area</string>
+    <string name="f_b3_notificantion_text5">Alert updated</string>
+    <string name="f_b3_come_text6"> Will be accepted when one of the places</string>
+    <string name="f_b3_realy_text7">That you reported on in real time or in retrospect</string>
+    <string name="fb_3_report_text8">Will be reported as an infected area</string>
+</resources>

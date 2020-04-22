@@ -39,6 +39,7 @@
             android:layout_width="12dp"
             android:background="@drawable/circle_butten_gray"
             android:id="@+id/f_boarding3_button"
+            android:layout_marginRight="12dp"
             android:layout_height="12dp" />
         <View
             android:layout_width="0dp"

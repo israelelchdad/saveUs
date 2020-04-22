@@ -27,7 +27,7 @@
         android:textSize="40sp"
         android:layout_height="0dp"
         android:layout_weight="63"
-        android:text="פשוט ומהיר" />
+        android:text="@string/f_b2_simple_text1" />
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"

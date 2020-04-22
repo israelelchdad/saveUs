@@ -64,9 +64,7 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener, 
                 moveToFragment(onBoarding3);
                 changeBeckgroundButten(moveToOnboarding3 );
                 break;
-
         }
-
     }
 
     private void changeBeckgroundButten(Button mybutton) {

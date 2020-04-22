@@ -14,217 +14,117 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="80"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="0dp"
-            android:layout_weight="243">
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="62"/>
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_weight="237"
-                android:src="@drawable/group"
-                android:layout_height="match_parent"/>
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="60"/>
 
-        </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="242"
+                android:src="@drawable/group"
+               />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="46"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="63"
-            android:orientation="horizontal">
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="10"/>
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="281"
-                android:layout_height="match_parent">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:textColor="#00b2ab"
-                    android:textSize="40sp"
-                    android:layout_height="match_parent"
-                    android:text="התראות ועדכונים" />
 
-            </LinearLayout>
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="30"/>
-
-
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#00b2ab"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
             android:layout_height="0dp"
-            android:layout_weight="9"/>
-        <LinearLayout
+            android:layout_weight="70"
+            android:text="@string/f_b3_Notifications_text1" />
+
+        <RelativeLayout
             android:layout_width="match_parent"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:layout_height="0dp"
-            android:orientation="vertical"
-            android:layout_weight="38">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal">
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="10"/>
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="293"
-                    android:layout_height="match_parent">
-                    <TextView
+            android:layout_weight="25"
+            >
+                     <TextView
                         android:layout_width="wrap_content"
                         android:textColor="#454e6c"
                         android:id="@+id/fbord3_text_masege"
                         android:textStyle="bold"
                         android:textSize="16sp"
-                        android:layout_alignParentEnd="true"
+                         android:layout_alignParentStart="true"
                         android:layout_height="wrap_content"
-                        android:text="התראה בזמן אמת " />
+                        android:text="@string/f_b3_time_text2" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:textColor="#454e6c"
                         android:textSize="16sp"
-                        android:layout_toStartOf="@+id/fbord3_text_masege"
+                        android:layout_toEndOf="@+id/fbord3_text_masege"
                         android:layout_height="wrap_content"
-                        android:text="תתקבל במצב בו דיווחתם על " />
-                </RelativeLayout>
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="10"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:orientation="horizontal"
-                android:layout_weight="1">
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="10"/>
-                <TextView
+                        android:text="@string/f_b3_come_text3" />
+        </RelativeLayout>
+
+
+
+
+    <TextView
                     android:layout_width="wrap_content"
                     android:textColor="#454e6c"
+                    android:layout_gravity="center"
                     android:textSize="16sp"
-                    android:layout_height="wrap_content"
-                    android:text="מיקומכם הנוכחי ויש עליו מידע מעודכן כאזור נגוע"
+                    android:layout_height="0dp"
+                    android:layout_weight="23"
+                    android:text="@string/f_b3_place_text4"
                     />
-
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="10"/>
-
-
-            </LinearLayout>
-
-
-
-        </LinearLayout>
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="19"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="0dp"
-            android:layout_weight="23">
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="10"/>
+
             <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_weight="293"
-                android:layout_height="match_parent">
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_weight="25">
                 <TextView
                     android:layout_width="wrap_content"
                     android:textColor="#454e6c"
                     android:id="@+id/fbord1_text_Updated"
                     android:textStyle="bold"
                     android:textSize="16sp"
-                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentStart="true"
                     android:layout_height="wrap_content"
-                    android:text="התראה מתעדכנת " />
+                    android:text="@string/f_b3_notificantion_text5" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:textColor="#454e6c"
                     android:textSize="16sp"
-                    android:layout_toStartOf="@+id/fbord1_text_Updated"
+                    android:layout_toEndOf="@+id/fbord1_text_Updated"
                     android:layout_height="wrap_content"
-                    android:text="תתקבל כאשר אחד מהמקומות " />
+                    android:text="@string/f_b3_come_text6" />
             </RelativeLayout>
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="10"/>
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="0dp"
-            android:layout_weight="23">
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="25"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:textColor="#454e6c"
+                android:layout_gravity="center"
                 android:textSize="16sp"
-                android:layout_height="wrap_content"
-                android:text="שדיווחתם עליהם בזמן אמת או בדיעבד"
+                android:layout_height="0dp"
+                android:layout_weight="23"
+                android:text="@string/f_b3_realy_text7"
                 />
-
-
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="25"/>
-
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="0dp"
-            android:layout_weight="23">
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="25"/>
-            <TextView
+        <TextView
                 android:layout_width="wrap_content"
                 android:textColor="#454e6c"
                 android:textSize="16sp"
-                android:layout_height="wrap_content"
-                android:text="ידווח כאזור נגוע"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="25"
+                android:text="@string/fb_3_report_text8"
                 />
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="25"/>
-        </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
